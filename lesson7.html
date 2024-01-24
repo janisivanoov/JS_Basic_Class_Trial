@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS</title>
+</head>
+<body>
+	
+	<script>
+	var some = new Array(); // Создание пустого массива
+    some[0] = '1'; // Добавление 1 элемента
+    some[1] = 2; // Добавление 2 элемента
+    console.log(some[0]); // Вывод первого элемента
+    var array = new Array(1, 5, 2); // Создание массива со значениями сразу же
+        var elements = new Array(23, 6, 0, true, "Первый");
+    // Выведет значение 5, так как в массиве 5 элементов
+    console.log(elements.length);
+    var x = new Array(new Array(0, 34, 2), new Array(3, 4, 5));
+    console.log(x[0][1]); // Выведет 34
+
+    // Можно их сразу не присваивать
+    var symbols = new Array(new Array(), new Array());
+    symbols [0][1] = 'A';
+    x[0][1] = 1; // Вместо 34 теперь будет 1
+	</script>
+</body>
+</html>
